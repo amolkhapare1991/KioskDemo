@@ -1,0 +1,80 @@
+.cartWrapper {
+    margin:50px;
+    position: relative;
+}
+
+.cartWrapper h5{
+    font-size: 32px;
+}
+
+.popUpContainer {
+    position: absolute;
+    width: 100%;
+    height:100vh;
+    top:0;
+    left:0;
+    opacity: 1;
+}
+
+.itemWrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 100px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    align-items: center;
+}
+.itemWrapper img {
+    margin:20px;
+    width: 100%;
+    height: auto;
+}
+.itemWrapper div{
+    text-align: left;
+}
+.title{
+    font-size: 24px;
+}
+.title span{
+    font-weight: bold;
+}
+.button{
+    position: fixed;
+    bottom: 70px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 100%;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.abort {
+    position: fixed;
+    right: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    bottom: 200px;
+    font-size: 24px;
+    padding: 20px;
+    border: none;
+}
+.button1 {
+    background-color: red;
+    height: 100%;
+    font-size: 24px;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+}
+.button2{
+    background-color: green;
+    height: 100%;
+    font-size: 24px;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+}

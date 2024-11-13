@@ -1,0 +1,163 @@
+.headerWrapper {
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    width: 100%;
+    background-color: red;
+    align-items: end;
+}
+.categoryWrapper {
+    display: flex;
+    display: flex;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    gap: 30px;
+    list-style-type: none;
+}
+.productsContainer{
+    height: 80vh;
+    overflow-y: auto;
+}
+.productsWrapper{
+    margin:50px;
+    padding:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    list-style-type: none;
+}
+.productWrapper {
+    border: 1px solid gray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.imgWrapper {
+    margin:10px;
+    width: 90%;
+    height: auto;
+}
+.title{
+    font-size: 24px;
+}
+.price {
+    font-size: 20px;
+    color: gray;
+}
+
+.quantityWrapper{
+    display: flex;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.quantityWrapper1 {
+    visibility: hidden;
+}
+.quantityWrapper button {
+    width: 50px;
+}
+.quantityWrapper input {
+    width: 50px;
+    text-align: center;
+}
+.btn2{
+    width: 80%;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: green;
+    padding: 12px;
+    border: none;
+    margin: 12px;
+    color: white;
+}
+.btnRemoveFromCart {
+    background-color: red;
+}
+.miniCartWrapper {
+    position: fixed; 
+    bottom: 0;
+    height: 12%;
+    width: 100%;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-bottom: 20px;
+}
+.banner {
+    grid-template-columns: 1fr;
+    font-size: 30px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.cartThumbnailWrapper {
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    column-gap: 35px;
+    row-gap: 25px;
+    list-style-type: none;
+    margin: 0;
+}
+.thumbnail {
+    border: 1px solid gray;
+    height: 80px;
+    width: 90px;
+}
+.thumbnail img {
+    margin: auto;
+    height: 90%;
+    width: 90%;
+}
+
+.cartWrapper, .scanWrapper, .miniCartBtns {
+    margin: 10px;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.cartWrapper {
+    position: relative;
+}
+
+.moreItems {
+   position: absolute;
+   bottom: 40px;
+   right: 155px;
+   font-size: 16px;
+   height: 80px;
+   width: 90px;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.reviewCart {
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    background-color: green;
+    padding: 7px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.cartTotalWrapper {
+    text-align: left;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.placeOrderBtn {
+    background-color: green;
+    width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
